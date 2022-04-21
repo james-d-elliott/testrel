@@ -2,4 +2,4 @@
 ATEST
 
 
-a feat
+a feature
