@@ -3,7 +3,7 @@ on:
   push:
     # Sequence of patterns matched against refs/tags
     tags:        
-      - v0.~
+      - v0.*
       - v1.*
       - v2.*
 jobs:
