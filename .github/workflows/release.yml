@@ -13,5 +13,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Conventional Releaser
-      uses: james-d-elliott/conventional-releaser-action@v0.1.0
-
+      uses: james-d-elliott/conventional-releaser-action@v0.1.1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
