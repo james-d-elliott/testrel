@@ -10,5 +10,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: james-d-elliott/conventional-releaser-action@v0
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Conventional Releaser
+      uses: james-d-elliott/conventional-releaser-action@v0.1.0
+
