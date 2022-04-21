@@ -1,0 +1,14 @@
+name: "Release / Publish"
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:        
+      - v0.~
+      - v1.*
+      - v2.*
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: james-d-elliott/conventional-releaser-action@v0
