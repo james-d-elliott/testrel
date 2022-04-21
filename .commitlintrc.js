@@ -1,11 +1,11 @@
 module.exports = {
 	parserPreset: 'conventional-changelog-conventionalcommits',
-  defaultIgnores: true,
-  helpUrl: 'https://github.com/james-d-elliott/testrel',
+	defaultIgnores: true,
+	helpUrl: 'https://github.com/james-d-elliott/testrel',
 	rules: {
 		'body-leading-blank': [1, 'always'],
 		'body-max-line-length': [2, 'always', "Infinity"],
-    'body-min-length': [2, 'always', 20],
+		'body-min-length': [2, 'always', 20],
 		'footer-leading-blank': [1, 'always'],
 		'footer-max-line-length': [2, 'always', 100],
 		'header-max-length': [2, 'always', 100],
